@@ -12,7 +12,7 @@
 }
 
 body {
-  background: #8758ff;
+  background: #452e7e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,7 +125,7 @@ button.with-text svg{
 
 label{
   font-family: 'Poppins', sans-serif;
-
+  color: azure;
   display:block;
   margin-bottom: 10px;
   margin-top: 20px;
