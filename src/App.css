@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --red: #f54e4e;
+  --green: #4aec8c;
+}
+
+body {
+  background: #8758ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #1A1A40;
+  margin-top: 1rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+/* .timer {
+  width: 50vw;  /* 50% of the viewport's width */
+  /* height: 50vw; 50% of the viewport's width */
+  /* max-width: 500px;
+  max-height: 500px;
+  min-width: 200px;
+  min-height: 200px;
+} */ 
+
+.TodoForm {
+  width: 100%;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
+ main{
+  padding-top: 50px;
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button{
+  background-color: transparent;
+  color: rgba(255,255,255,0.8);
+  border:0;
+  display: inline-block;
+  width: 100px;
+  cursor: pointer;
+}
+
+button.with-text{
+  width: auto;
+  background-color:rgba(255,255,255,0.1);
+  border-radius:10px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  line-height: 36px;
+}
+button.with-text svg{
+  width: 36px;
+  float:left;
+  margin-right: 5px;
+}
+
+label{
+  font-family: 'Poppins', sans-serif;
+
+  display:block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
